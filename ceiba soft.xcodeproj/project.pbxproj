@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1C4EF524AEB81C0053AA42 /* FetchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4EF424AEB81C0053AA42 /* FetchClass.swift */; };
+		4A1C4EF724AEB8810053AA42 /* UsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4EF624AEB8810053AA42 /* UsersModel.swift */; };
+		4A1C4EF924AEB8950053AA42 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4EF824AEB8950053AA42 /* PostsModel.swift */; };
+		4A1C4F0024AEB94C0053AA42 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4EFF24AEB94C0053AA42 /* PostsViewController.swift */; };
+		4A1C4F0524AEB9830053AA42 /* PostsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4F0424AEB9830053AA42 /* PostsView.storyboard */; };
+		4A1C4F0824AEB9FA0053AA42 /* ProgressIndicatorView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4F0724AEB9FA0053AA42 /* ProgressIndicatorView.storyboard */; };
+		4A1C4F0B24AEBA310053AA42 /* ProgressIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4F0A24AEBA310053AA42 /* ProgressIndicatorViewController.swift */; };
+		4A1C4F0E24AEBF220053AA42 /* ConstantsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4F0D24AEBF220053AA42 /* ConstantsApp.swift */; };
+		4A1C4F1024AEC3360053AA42 /* CustomErrorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4F0F24AEC3360053AA42 /* CustomErrorClass.swift */; };
+		4A1C4F1224AECF6C0053AA42 /* StorageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4F1124AECF6C0053AA42 /* StorageClass.swift */; };
+		4A1C4F1424AEDF010053AA42 /* ErrorStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A1C4F1324AEDF010053AA42 /* ErrorStrings.strings */; };
+		4A1C4F1724AEE1850053AA42 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C4F1624AEE1850053AA42 /* StringExtension.swift */; };
+		4A2FB03E24B2A10100C88A8D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FB03D24B2A10100C88A8D /* PostCell.swift */; };
+		4A6A0AA424AEEB320039AE1C /* StoriboardClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A0AA324AEEB320039AE1C /* StoriboardClass.swift */; };
 		4A9B45FE24AD638E00424E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B45FD24AD638E00424E42 /* AppDelegate.swift */; };
 		4A9B460024AD638E00424E42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B45FF24AD638E00424E42 /* SceneDelegate.swift */; };
-		4A9B460224AD638E00424E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B460124AD638E00424E42 /* ViewController.swift */; };
-		4A9B460524AD638E00424E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B460324AD638E00424E42 /* Main.storyboard */; };
+		4A9B460224AD638E00424E42 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B460124AD638E00424E42 /* UsersViewController.swift */; };
+		4A9B460524AD638E00424E42 /* UsersView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B460324AD638E00424E42 /* UsersView.storyboard */; };
 		4A9B460824AD638E00424E42 /* ceiba_soft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B460624AD638E00424E42 /* ceiba_soft.xcdatamodeld */; };
 		4A9B460A24AD639000424E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B460924AD639000424E42 /* Assets.xcassets */; };
 		4A9B460D24AD639000424E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9B460B24AD639000424E42 /* LaunchScreen.storyboard */; };
 		4A9B461824AD639000424E42 /* ceiba_softTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B461724AD639000424E42 /* ceiba_softTests.swift */; };
 		4A9B462324AD639000424E42 /* ceiba_softUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B462224AD639000424E42 /* ceiba_softUITests.swift */; };
+		4AC3C7B124AF7FAC0076204B /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC3C7B024AF7FAC0076204B /* UsersCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A9B45FA24AD638E00424E42 /* ceiba soft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ceiba soft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1C4EF424AEB81C0053AA42 /* FetchClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchClass.swift; sourceTree = "<group>"; };
+		4A1C4EF624AEB8810053AA42 /* UsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModel.swift; sourceTree = "<group>"; };
+		4A1C4EF824AEB8950053AA42 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		4A1C4EFF24AEB94C0053AA42 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		4A1C4F0424AEB9830053AA42 /* PostsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsView.storyboard; sourceTree = "<group>"; };
+		4A1C4F0724AEB9FA0053AA42 /* ProgressIndicatorView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressIndicatorView.storyboard; sourceTree = "<group>"; };
+		4A1C4F0A24AEBA310053AA42 /* ProgressIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorViewController.swift; sourceTree = "<group>"; };
+		4A1C4F0D24AEBF220053AA42 /* ConstantsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsApp.swift; sourceTree = "<group>"; };
+		4A1C4F0F24AEC3360053AA42 /* CustomErrorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorClass.swift; sourceTree = "<group>"; };
+		4A1C4F1124AECF6C0053AA42 /* StorageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageClass.swift; sourceTree = "<group>"; };
+		4A1C4F1324AEDF010053AA42 /* ErrorStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ErrorStrings.strings; sourceTree = "<group>"; };
+		4A1C4F1624AEE1850053AA42 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		4A2FB03D24B2A10100C88A8D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4A6A0AA324AEEB320039AE1C /* StoriboardClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriboardClass.swift; sourceTree = "<group>"; };
+		4A9B45FA24AD638E00424E42 /* Ceiba Soft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ceiba Soft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9B45FD24AD638E00424E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9B45FF24AD638E00424E42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A9B460124AD638E00424E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A9B460424AD638E00424E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A9B460124AD638E00424E42 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		4A9B460424AD638E00424E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UsersView.storyboard; sourceTree = "<group>"; };
 		4A9B460724AD638E00424E42 /* ceiba_soft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ceiba_soft.xcdatamodel; sourceTree = "<group>"; };
 		4A9B460924AD639000424E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9B460C24AD639000424E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,7 @@
 		4A9B461E24AD639000424E42 /* ceiba softUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ceiba softUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9B462224AD639000424E42 /* ceiba_softUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceiba_softUITests.swift; sourceTree = "<group>"; };
 		4A9B462424AD639000424E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC3C7B024AF7FAC0076204B /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1C4EFA24AEB8B30053AA42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4EF624AEB8810053AA42 /* UsersModel.swift */,
+				4A1C4EF824AEB8950053AA42 /* PostsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4A1C4EFB24AEB8CA0053AA42 /* HelpersClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4EF424AEB81C0053AA42 /* FetchClass.swift */,
+				4A1C4F0F24AEC3360053AA42 /* CustomErrorClass.swift */,
+				4A1C4F1124AECF6C0053AA42 /* StorageClass.swift */,
+				4A6A0AA324AEEB320039AE1C /* StoriboardClass.swift */,
+			);
+			path = HelpersClasses;
+			sourceTree = "<group>";
+		};
+		4A1C4EFC24AEB8FA0053AA42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4F0924AEBA080053AA42 /* ResourcesControllers */,
+				4AC3C7AF24AF7F7B0076204B /* UsersViewController */,
+				4A2FB03C24B2A0D300C88A8D /* PostsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4A1C4F0124AEB9570053AA42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4F0624AEB9BD0053AA42 /* ResourcesView */,
+				4A9B460B24AD639000424E42 /* LaunchScreen.storyboard */,
+				4A9B460324AD638E00424E42 /* UsersView.storyboard */,
+				4A1C4F0424AEB9830053AA42 /* PostsView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A1C4F0624AEB9BD0053AA42 /* ResourcesView */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4F0724AEB9FA0053AA42 /* ProgressIndicatorView.storyboard */,
+			);
+			path = ResourcesView;
+			sourceTree = "<group>";
+		};
+		4A1C4F0924AEBA080053AA42 /* ResourcesControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4F0A24AEBA310053AA42 /* ProgressIndicatorViewController.swift */,
+			);
+			path = ResourcesControllers;
+			sourceTree = "<group>";
+		};
+		4A1C4F0C24AEBA9A0053AA42 /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				4A9B45FD24AD638E00424E42 /* AppDelegate.swift */,
+				4A9B45FF24AD638E00424E42 /* SceneDelegate.swift */,
+				4A9B460E24AD639000424E42 /* Info.plist */,
+				4A1C4F0D24AEBF220053AA42 /* ConstantsApp.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		4A1C4F1524AEE1680053AA42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4F1624AEE1850053AA42 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A1C4F1824AEE3320053AA42 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				4A9B460924AD639000424E42 /* Assets.xcassets */,
+				4A1C4F1324AEDF010053AA42 /* ErrorStrings.strings */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		4A2FB03C24B2A0D300C88A8D /* PostsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A1C4EFF24AEB94C0053AA42 /* PostsViewController.swift */,
+				4A2FB03D24B2A10100C88A8D /* PostCell.swift */,
+			);
+			path = PostsViewController;
+			sourceTree = "<group>";
+		};
 		4A9B45F124AD638E00424E42 = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +215,7 @@
 		4A9B45FB24AD638E00424E42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A9B45FA24AD638E00424E42 /* ceiba soft.app */,
+				4A9B45FA24AD638E00424E42 /* Ceiba Soft.app */,
 				4A9B461324AD639000424E42 /* ceiba softTests.xctest */,
 				4A9B461E24AD639000424E42 /* ceiba softUITests.xctest */,
 			);
@@ -101,13 +225,13 @@
 		4A9B45FC24AD638E00424E42 /* ceiba soft */ = {
 			isa = PBXGroup;
 			children = (
-				4A9B45FD24AD638E00424E42 /* AppDelegate.swift */,
-				4A9B45FF24AD638E00424E42 /* SceneDelegate.swift */,
-				4A9B460124AD638E00424E42 /* ViewController.swift */,
-				4A9B460324AD638E00424E42 /* Main.storyboard */,
-				4A9B460924AD639000424E42 /* Assets.xcassets */,
-				4A9B460B24AD639000424E42 /* LaunchScreen.storyboard */,
-				4A9B460E24AD639000424E42 /* Info.plist */,
+				4A1C4F1524AEE1680053AA42 /* Extensions */,
+				4A1C4F0124AEB9570053AA42 /* Views */,
+				4A1C4EFC24AEB8FA0053AA42 /* Controllers */,
+				4A1C4EFB24AEB8CA0053AA42 /* HelpersClasses */,
+				4A1C4EFA24AEB8B30053AA42 /* Models */,
+				4A1C4F0C24AEBA9A0053AA42 /* AppSettings */,
+				4A1C4F1824AEE3320053AA42 /* AppResources */,
 				4A9B460624AD638E00424E42 /* ceiba_soft.xcdatamodeld */,
 			);
 			path = "ceiba soft";
@@ -131,6 +255,15 @@
 			path = "ceiba softUITests";
 			sourceTree = "<group>";
 		};
+		4AC3C7AF24AF7F7B0076204B /* UsersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A9B460124AD638E00424E42 /* UsersViewController.swift */,
+				4AC3C7B024AF7FAC0076204B /* UsersCell.swift */,
+			);
+			path = UsersViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,7 +281,7 @@
 			);
 			name = "ceiba soft";
 			productName = "ceiba soft";
-			productReference = 4A9B45FA24AD638E00424E42 /* ceiba soft.app */;
+			productReference = 4A9B45FA24AD638E00424E42 /* Ceiba Soft.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4A9B461224AD639000424E42 /* ceiba softTests */ = {
@@ -236,8 +369,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A9B460D24AD639000424E42 /* LaunchScreen.storyboard in Resources */,
+				4A1C4F1424AEDF010053AA42 /* ErrorStrings.strings in Resources */,
 				4A9B460A24AD639000424E42 /* Assets.xcassets in Resources */,
-				4A9B460524AD638E00424E42 /* Main.storyboard in Resources */,
+				4A1C4F0524AEB9830053AA42 /* PostsView.storyboard in Resources */,
+				4A1C4F0824AEB9FA0053AA42 /* ProgressIndicatorView.storyboard in Resources */,
+				4A9B460524AD638E00424E42 /* UsersView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +398,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9B460224AD638E00424E42 /* ViewController.swift in Sources */,
+				4A2FB03E24B2A10100C88A8D /* PostCell.swift in Sources */,
+				4A1C4EF524AEB81C0053AA42 /* FetchClass.swift in Sources */,
+				4A1C4EF724AEB8810053AA42 /* UsersModel.swift in Sources */,
+				4A6A0AA424AEEB320039AE1C /* StoriboardClass.swift in Sources */,
+				4A9B460224AD638E00424E42 /* UsersViewController.swift in Sources */,
+				4A1C4F0B24AEBA310053AA42 /* ProgressIndicatorViewController.swift in Sources */,
+				4A1C4F0024AEB94C0053AA42 /* PostsViewController.swift in Sources */,
+				4A1C4F1024AEC3360053AA42 /* CustomErrorClass.swift in Sources */,
+				4A1C4F0E24AEBF220053AA42 /* ConstantsApp.swift in Sources */,
+				4A1C4F1224AECF6C0053AA42 /* StorageClass.swift in Sources */,
+				4A1C4F1724AEE1850053AA42 /* StringExtension.swift in Sources */,
+				4A1C4EF924AEB8950053AA42 /* PostsModel.swift in Sources */,
 				4A9B45FE24AD638E00424E42 /* AppDelegate.swift in Sources */,
+				4AC3C7B124AF7FAC0076204B /* UsersCell.swift in Sources */,
 				4A9B460824AD638E00424E42 /* ceiba_soft.xcdatamodeld in Sources */,
 				4A9B460024AD638E00424E42 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,12 +449,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A9B460324AD638E00424E42 /* Main.storyboard */ = {
+		4A9B460324AD638E00424E42 /* UsersView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4A9B460424AD638E00424E42 /* Base */,
 			);
-			name = Main.storyboard;
+			name = UsersView.storyboard;
 			sourceTree = "<group>";
 		};
 		4A9B460B24AD639000424E42 /* LaunchScreen.storyboard */ = {
@@ -440,13 +588,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2276EYPC4M;
-				INFOPLIST_FILE = "ceiba soft/Info.plist";
+				INFOPLIST_FILE = "ceiba soft/AppSettings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "krisskira.ceiba-soft";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ceiba Soft";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,13 +606,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2276EYPC4M;
-				INFOPLIST_FILE = "ceiba soft/Info.plist";
+				INFOPLIST_FILE = "ceiba soft/AppSettings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "krisskira.ceiba-soft";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ceiba Soft";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,13 @@
+/* 
+  ErrorStrings.strings
+  ceiba soft
+
+  Created by Crhistian Vergara Gomez on 2/07/20.
+  Copyright © 2020 Crhistian Vergara Gomez. All rights reserved.
+*/
+
+"no_data" = "La petición no retorno información";
+"not_users" = "No se logro recuperar los datos almacenados en el dispositivo";
+"storage_user_data" = "No se puede mapear los datos almacenados en el dispositivo";
+"list_is_empty" = "List is empty";
+
